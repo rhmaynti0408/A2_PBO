@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pkg2009106068_rahmayanti;
+package posttest2;
 
 /**
  *
@@ -21,10 +21,11 @@ public class Produk {
     public void setUkuran(String ukuran) {
         this.ukuran = ukuran;
     }
+
     private String nama;
     private int harga;
     private String ukuran;
-
+    private int id;
 
 
     public int getId() {
@@ -34,7 +35,6 @@ public class Produk {
     public void setId(int id) {
         this.id = id;
     }
-    private int id;
     
     public String getNama() {
         return nama;
@@ -47,6 +47,6 @@ public class Produk {
     public String getUkuran() {
         return ukuran;
     }
-    
-
 }
+
+
