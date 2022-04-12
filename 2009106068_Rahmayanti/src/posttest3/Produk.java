@@ -6,7 +6,7 @@
 package posttest3;
 
 
-
+//posttest 3 enkapsulasi dan setter getter
 /**
  *
  * @author ASUS
@@ -24,7 +24,7 @@ public class Produk {
         this.ukuran = ukuran;
     }
 
-    private String nama;
+    private String nama; //enkapsulasi
     private int harga;
     private String ukuran;
     private int id;
