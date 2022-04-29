@@ -13,7 +13,7 @@ import posttest3.*;
  *
  * @author ASUS
  */
-public class Produk {
+public abstract class Produk {
     public void setNama(String nama) {
         this.nama = nama;
     }
@@ -26,17 +26,20 @@ public class Produk {
         this.ukuran = ukuran;
     }
 
-    public Produk(String nama, int harga, String ukuran, int id) {
+    public Produk(String nama, int harga, String ukuran, int id, int hash) {
         this.nama = nama;
         this.harga = harga;
         this.ukuran = ukuran;
         this.id = id;
+        this.hash = hash;
     }
+
 
     protected String nama; //enkapsulasi
     protected int harga;
     protected String ukuran;
     protected int id;
+    protected final int hash;
 
 
     public int getId() {
