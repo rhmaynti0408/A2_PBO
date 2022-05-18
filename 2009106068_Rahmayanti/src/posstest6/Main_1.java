@@ -3,7 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package posttest4;
+package posstest6;
+import posttest4.*;
 import posttest3.*;
 import posttest2.*;
 import java.util.*;
@@ -12,11 +13,20 @@ import java.util.*;
  *
  * @author ASUS
  */
-public class Main {
+public class Main_1 {
 
     /**
      * @param args the command line arguments
      */
+    //metohod interface
+    public static void main(String[] args) {
+        phone3 a12 = new phone3 ();
+        a12.menyala();
+        a12.matikan();
+        a12.restar();
+        a12.kunciLayar();
+    }
+    
     
     public static void main(String[] args) {
         // TODO code application logic here

@@ -13,7 +13,7 @@ import posttest3.*;
  *
  * @author ASUS
  */
-public abstract class Produk {
+public abstract class Produk_1 {
     public void setNama(String nama) {
         this.nama = nama;
     }
@@ -26,7 +26,7 @@ public abstract class Produk {
         this.ukuran = ukuran;
     }
 
-    public Produk(String nama, int harga, String ukuran, int id, int hash) {
+    public Produk_1(String nama, int harga, String ukuran, int id, int hash) {
         this.nama = nama;
         this.harga = harga;
         this.ukuran = ukuran;

@@ -13,9 +13,9 @@ import posttest3.*;
  *
  * @author ASUS
  */
-public class Cons_Produk {
+public class Cons_Produk_1 {
 
-    public Cons_Produk(String nama, int harga, String ukuran, int id) {
+    public Cons_Produk_1(String nama, int harga, String ukuran, int id) {
         this.nama = nama;
         this.harga = harga;
         this.ukuran = ukuran;

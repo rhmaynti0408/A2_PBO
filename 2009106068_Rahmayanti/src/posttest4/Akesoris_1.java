@@ -5,32 +5,29 @@
  */
 package posttest4;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author ASUS
  */
+public abstract class Akesoris_1 extends Produk {
+    private String  tipe;
 
-import posttest3.*;
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.Scanner;
-public class method {
-    //membuat fungsi untuk 
-    public static int GetInt(){
-        Scanner input = new Scanner (System.in);
-        while (true){
-            try{
-                return input.nextInt();
-            }
-            catch (InputMismatchException e){
-                input.nextLine();
-                System.out.println("Input Salah Coba Lagi: ");
-            }
-        }
+    public Akesoris_1(String tipe, String jenis, String nama, int harga, String ukuran, int id) {
+        super(nama, harga, ukuran, id);
+        this.tipe = tipe;
     }
-    //membuat fungsi untuk menampilkan list data.
+
+    public String getTipe() {
+        return tipe;
+    }
+
+    public void setTipe(String tipe) {
+        this.tipe = tipe;
+    }
     static void list_data(ArrayList<Produk> ListProduk){
-        System.out.println("===List Produk iBox===");
+        System.out.println("===List Aksesoris iBox===");
         System.out.println("No ID Nama\t\tUkuran\t\t\tHarga");
         for(int i=0;i<ListProduk.size();i++){
             System.out.println((i+1)+" "+ListProduk.get(i).getId()+" "+ListProduk.get(i).getNama()+"\t\t"+ListProduk.get(i).getUkuran()+"\t\t"+ListProduk.get(i).getHarga());

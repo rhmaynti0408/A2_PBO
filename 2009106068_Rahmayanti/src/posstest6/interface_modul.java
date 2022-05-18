@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package posttest4;
+package posstest6;
 
 /**
  *
  * @author ASUS
  */
-public class Elektronik {
-    
+public interface interface_modul {
+    void menyala();
+    void matikan();
+    void restar();
+    void kunciLayar();
 }
